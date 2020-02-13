@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Workshop Boss in conjunction with VLDB' 15 ">
+    <meta name="author" content="Tilman Rabl">
+
+    <title>Boss Workshop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">HOME</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                                        <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#panel">Panel</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#systems">Systems</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organization">Organization</a>
+                    </li>
+                    <li>
+                        <!--<a class="page-scroll" href="#people">contact</a>-->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                       <!-- <br clear="all" />
+                        <h1 class="brand-heading" style="color:#3DA551; text-shadow: 0.1em 0.1em 0.05em #555">BOSS</h1>
+                        <p class="intro-text" style="color:#000">First Workshop on <b style="color:#3DA551">B</b>ig Data <b style="color:#3DA551">O</b>pen <b style="color:#3DA551">S</b>ource <b style="color:#3DA551">S</b>ystems<br>September 4, 2015, Hilton Waikoloa Village, Waikoloa, Hawaii</p>
+                        <a href="#about" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-left">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>About Workshop:</h3>
+                <p>
+                The first workshop on Big Data Open Source Systems (BOSS'15) will be held in conjunction with the
+                <a href="http://www.vldb.org/2015/"> <img src="img/vldb_logo04.png" alt="" border="0" width="" height=""></img></a>
+                </p>
+                <p>
+                The workshop gave a deep-dive introduction into several active, publicly available, open-source systems.
+                For the first instance of the BOSS workshop, 8 diverse systems were chosen. The tutorials will gave details
+                on installation and non-trivial examples usage of the presented system. All presentations were held by experts
+                in the respective systems. The workshop followed a novel massively parallel format. After a joint introduction,
+                8 parallel tutorial sessions were held. Each tutorial was 2 hours in length and was repeated. Between the
+                two tutorial sessions a panel on "Big Data and Exascale" was held.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Program Section -->
+    <section id="program" class="container content-section text-left">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Program</h3>
+                <p>
+                The program consisted of 8 parallel tutorial sessions, which were repeated, and a panel between the repetitions.
+                The 8 presented systems were: Apache AsterixDB, Apache Flink, Apache Reef, Apache Singa, Apache Spark, Padres, rasdaman,
+                and SciDB. The panel was on the topic "Exascale and Big Data".
+                </p>
+                <img src="img/boss_program.png" alt="Participant flow diagram of the BOSS program" style="margin-bottom:3em;"></img><br clear="all"/>
+                <h4>Program Outline:</h4>
+                <table class="table table-condensed">
+                                <tr>
+                                        <td>9:00 - 9:15</td>
+                                        <td>Introduction (<a href="media/BOSS15-Introduction.pdf" target="_blank">slides</a>)</td>
+                                </tr>
+                                <tr>
+                                        <td>9:15 - 10:00</td>
+                                        <td>Flash Session</td>
+                                </tr>
+                                <tr>
+                                        <td>10:00 - 10:30</td>
+                                        <td>Tutorial Session 1 (Part 1)</td>
+                                </tr>
+                                <tr class="success">
+                                        <td>10:30 - 11:00</td>
+                                        <td>Break</td>
+                                </tr>
+                                <tr>
+                                        <td>11:00 - 12:30</td>
+                                        <td>Tutorial Session 1 (Part 2)</td>
+                                </tr>
+                                <tr class="success">
+                                        <td>12:30 - 14:00</td>
+                                        <td>Lunch break</td>
+                                </tr>
+                                <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Panel discussion</td>
+                                </tr>
+                                <tr>
+                                        <td>15:00 - 15:30</td>
+                                        <td>Tutorial Session 2 (Part 1)</td>
+                                </tr>
+                                <tr class="success">
+                                        <td>15:30 - 16:00</td>
+                                        <td>Break</td>
+                                </tr>
+                                <tr>
+                                        <td>16:00 - 17:30</td>
+                                        <td>Tutorial Session 2 (Part 2)</td>
+                                </tr>
+                                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panel Section -->
+    <section id="panel" class="container content-section text-left">
+        <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <h3>Panel Description</h3>
+                <p>
+                The emergence of large-scale, data intensive science on one hand, and the increasing requirement
+                for sophisticated deep learning models and real-time analytics in business, on the other, provides
+                the opportunity and necessity to examine convergence of capacity, functionality, and capabilities of
+                traditional high performance computing (HPC) with the distributed, resilient, and ease of programming
+                models of Big Data.
+                < /br>
+                The panel discussed application use cases; use case "patterns"; software-hardware codesign and integration
+                issues; and, the role and impact of disruptive hardware and software technologies, all of which may drive
+                the convergence of HPC and Big Data. The panel will also consider and discuss implications for medium and
+                long-term research. A companion panel on the same topic has been accepted at the Supercomputing 2015 Conference
+                (Nov 15-20, 2016, Austin, TX).
+                </p>
+                                <b>Panel Chair:</b>
+                                <ul style="margin-top:-0px;">
+                                        <li style="list-style-type:square">Chaitanya Baru, NSF (<a href="media/BOSS15-Panel-Baru.pdf" target="_blank">slides</a>)</li>
+                                </ul>
+                                <b>Panel List:</b>
+                                <ul style="margin-top:0px;">
+                                        <li style="list-style-type:square">Arie Shoshani, LBNL (<a href="media/BOSS15-Panel-Shoshani.pdf" target="_blank">slides</a>)</li>
+                                        <li style="list-style-type:square">Guy Lohmann, IBM</li>
+                                        <li style="list-style-type:square">Mike Carey, UC Irvine (<a href="media/BOSS15-Panel-Carey.pdf" target="_blank">slides</a>)</li>
+                                        <li style="list-style-type:square">Paul G. Brown, Paradigm4</li>
+                                        <li style="list-style-type:square">Peter Baumann, Jacobs University (<a href="media/BOSS15-Panel-Baumann.pdf" target="_blank">slides</a>)</li>
+                                        <li style="list-style-type:square">Volker Markl, TU Berlin</li>
+                                </ul>
+             </div>
+        </div>
+    </section>
+    <!-- Systeme Section -->
+    <section id="systems" class="container content-section text-left">
+        <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <h3>Details of the Presented Systems</h3>
+                                <h5 style="margin-bottom:8px;""><a href="https://asterixdb.ics.uci.edu/">Apache AsterixDB (Incubating)</a></h5>
+                                <p>
+                                AsterixDB is a BDMS (Big Data Management System) with a rich feature set that sets it apart from other Big Data platforms such as Big Data
+                                Analytics Systems and NoSQL stores. Its features make it well-suited to applications including web data warehousing, social data storage and
+                                analysis, and other use cases related to Big Data. AsterixDB has a flexible NoSQL style data model; a declarative query language that
+                                supports a wide range of queries; a scalable runtime system; partitioned, LSM-based data storage and indexing (including B+ tree, R
+                                tree, and text indexes); support for external as well as native data; a rich set of built-in types, including spatial, temporal, and textual
+                                types; support for fuzzy, spatial, and temporal queries; a built-in notion of data feeds for ingestion of data; and, last but not least,
+                                transaction support akin to that of a NoSQL store. Co-developed by researchers at UC Irvine and UC Riverside, Apache AsterixDB is now
+                                undergoing incubation at The Apache Software Foundation (ASF) and has contributors and early adopters from multiple institutions both within
+                                and beyond the UC System.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Yingyi Bu (UC Irvine)</li>
+                                                <li class="my-list-item">Chen Li (UC Irvine)</li>
+                                                <li class="my-list-item">Ian Maxon (UC Irvine)</li>
+                                                <li class="my-list-item">Pouria Pirzadeh (UC Irvine)</li>
+                                                <li class="my-list-item">Till Westmann (Couchbase)</li>
+                                        </ul>
+                                        <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="https://asterixdb.ics.uci.edu/">Project website</a></li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="https://flink.apache.org/">Apache Flink</a></h5>
+                                <p>
+                                Apache Flink is an open source system for expressive, declarative, fast,and efficient
+                                data analysis on both historical (batch) and real-time (streaming) data. Flink combines the scalability and programming
+                                flexibility of distributed MapReduce-like platforms with The efficiency, out-of-core execution, and query optimization
+                                capabilities found in parallel databases. At its core, Flink builds on a distributed dataflow runtime that unifies
+                                batch and incremental computations over a true-streaming pipelined execution. Its programming model allows for stateful,
+                                fault toleranT computations, flexible user-defined windowing semantics for streaming and unique support For iterations.
+                                Flink is converging into a use-case complete system for parallel data processing with a wide range of top level libraries
+                                ranging from machine learning and graph processing.Apache Flink originates from the Stratosphere project led by TU Berlin
+                                and has led to various scientific papers (VLDBJ, SIGMOD, (P)VLDB, ICDE, HPDC, etc.).
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Asterios Katsifodimos (TU Berlin, Germany)</li>
+                                                <li class="my-list-item">Gyula F&oacute;ra (KTH/SICS, Sweden)</li>
+                                                <li class="my-list-item">Vasilki Kalavri (KTH/SICS, Sweden)</li>
+                                                <li class="my-list-item">Paris Carbone (KTH/SICS, Sweden)</li>
+                                                <li class="my-list-item">Marton Balassi (ELTE/SZTAKI, Hungary)</li>
+                                        </ul>
+                                        <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="https://flink.apache.org/" target="_blank">Project website</a></li>
+                                                <li class="my-list-item"><a href="https://github.com/mbalassi/boss-tutorial" target="_blank" >Tutorial resources</a> (<a href="https://github.com/mbalassi/boss-tutorial" target="_blank">Turorial,</a><a href="https://github.com/mbalassi/boss-tutorial/tree/master/slides" target="_blank">slides</a>)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="http://reef.incubator.apache.org.">Apache Reef</a></h5>
+                                 <p>
+                                REEF is a meta-framework that provides a control-plane for scheduling and coordinating task-level (data-plane) work on cluster resources obtained from a Resource Manager. REEF provides mechanisms that
+                                facilitate resource re-use for data caching, and state management abstractions that greatly ease the development of elastic data processing workflows. REEF is being used to develop several commercial
+                                offerings such as the Azure Stream Analytics service and experimental prototypes for machine learning algorithms and a port of the CORFU system. REEF supports both Java and C# languages. REEF is currently an
+                                Apache Incubator project that has attracted contributors from several institutions
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Byung-Gon Chun (Seoul National University)</li>
+                                                <li class="my-list-item">Brian Cho (Seoul National University)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="http://reef.incubator.apache.org./" target="_blank">Project website</a></li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="http://www.comp.nus.edu.sg/~dbsystem/singa/">Apache Singa</a></h5>
+                                <p>
+                                It has shown that big data and deep structures greatly improve the accuracy of deep learning models in various machine learning
+                                tasks. However, the training usually takes a long time for large models with massive data. Distributed training makes it possible
+                                to scale, thus has gained traction in both research and industry. <br>
+                                In this talk, we are going to present Apache SINGA --- a general distributed deep learning system.
+                                SINGA provides a flexible training architecture that can be easily customized to be scalable for specific
+                                training tasks. A unified representation is proposed for different model structures, based on which a simple
+                                programming model is designed. We will introduce the programming model and architecture of SINGA together with hands-on training
+                                demos for users with different levels of deep learning background.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Wei Wang (National University of Singapore)</li>
+                                                <li class="my-list-item">Sheng Wang (National University of Singapore)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="http://www.comp.nus.edu.sg/~dbsystem/singa/" target="_blank">Project website</a></li>
+                                                <li class="my-list-item">Tutorial slides (<a href="http://singa.apache.org/files/singa-vldb-boss.pptx" target="_blank" >tutorial</a>, <a href="http://singa.apache.org/files/basic-user-guide.pptx" target="_blank" >basic user guide</a>, <a href="http://singa.apache.org/files/advanced-user-guide.pptx" target="_blank" >advanced user guide</a>)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="https://spark.apache.org/">Apache Spark</a></h5>
+                                <p>
+                                Apache Spark is a general-purpose computation engine used for many types of data processing. Spark comes packaged with support for ETL, interactive queries (SQL), advanced analytics (e.g. machine learning)
+                                and streaming over large datasets. Spark has seen rapid adoption at more than 1000 organizations. Spark is supported by a wide array of vendors, including Databricks, IBM, SAP, Cloudera, Hortonworks, MapR, Datastax, with deployment size from single laptop to a cluster of 8000 nodes, running against data ranging from
+                                kilobytes to petabytes. Originally developed at the UC Berkeley AMPLab, the Spark project has led to many academic publications and awards:
+                                        <br>- 2014 ACM Best Dissertation Award (Matei Zaharia)
+                                        <br>- Best Paper Award at NSDI 2012
+                                        <br>- Best Demo Award at SIGMOD 2012
+                                        <br>- OSDI 2014
+                                        <br>- SIGMOD (2013 and 2015)
+                                Spark is also the largest open source project for data processing, with over 700 contributors from over 200 organizations.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenter:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Reynold Xin (Databricks)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Recources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="https://spark.apache.org/" target="_blank">Project website</a></li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;" ><a href="http://msrg.utoronto.ca/projects/padres/index.php">Padres</a></h5>
+                                <p>
+                                PADRES (Publish/Subscribe Applied to Distributed Resource Scheduling) is an enterprise-grade event management infrastructure that is designed for large-scale event management applications. Ongoing research seeks to add and improve enterprise-grade qualities of the middleware. The PADRES system is a distributed content-based publish/subscribe middleware with features built with enterprise applications in mind.
+                                These features include
+                                        - Intelligent and scalable rule-based routing protocol and matching algorithm
+                                        - Powerful correlation of future and historic event
+                                        - Failure detection, recovery and dynamic load balancing system administration and monitoring
+                                 As well, the PADRES project studies application concerns above the infrastructure layer, such as
+                                        - Distributed transformation, deployment and execution
+                                        - Distributed monitoring and control
+                                        - Goal-oriented resource discovery and scheduling
+                                        - Secure, decentralized choreography and orchestration
+                                 A publish/subscribe middleware provides many benefits to enterprise applications. Content-based interaction simplifies the IT development and maintenance by decoupling enterprise components. As well, the expressive PADRES subscription language supports sophisticated interactions among components, and allows fine-grained queries and event  management functions. Furthermore, scalability is achieved with in-network filtering and processing capabilities.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenter:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Kaiwen Zhang (University of Toronto)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="http://msrg.utoronto.ca/projects/padres/index.php" target="_blank">Project website</a></li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="http://www.rasdaman.org/">rasdaman</a></h5>
+                                <p>
+                                rasdaman ("raster data manager") has pioneered Array Databases by adding massive multi-dimensional gridded data, an information category long missing in
+                                databases, to scalable data management and analysis. Its declarative query language, rasql, extends SQL with array operators which are optimized and
+                                parallelized on server side. Installations can easily be mashed up securely, thereby enabling large-scale location-transparent query processing in
+                                federations. Domain experts value the integration with their commonly used tools leading to a quick learning curve.
+                                <br>
+                                Earth, Space, and Life sciences, but also Social sciences as well as business have massive amounts of data and complex analysis challenges that are
+                                answered by rasdaman. As of today, rasdaman is mature and in operational use on hundreds of Terabytes of timeseries datacubes, with transparent query
+                                distribution across more than 1,000 nodes. Additionally, its concepts have shaped international Big Data standards in the field, including the forthcoming array extension
+                                to ISO SQL, many of which are supported by both open-source and commercial systems meantime. In the geo field, rasdaman is reference implementation for the
+                                Open Geospatial Consortium (OGC) Big Data standard, WCS, now also under adoption by ISO.
+                                <br>
+                                In this tutorial we present the concepts and design rationales, and then get hands-on with real-time examples. We will run nontrivial queries both
+                                locally and via Internet, with an opportunity for participants to recap and run their own queries. Finally, we will inspect operational services.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-20px;">
+                                                <li class="my-list-item"> Peter Baumann(Jacobs University Bremen)</li>
+                                                <li class="my-list-item"> Dimitar Misev (Jacobs University Bremen)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-20px;">
+                                                <li class="my-list-item"><a href="http://www.rasdaman.org/" target="_blank">Project website</a></li>
+                                               <!-- <li class="my-list-item"><a href=""><a href="media/BOSS15-Tutorial-rasdaman.pdf" target="_blank">Tutorial slides</a></a> (tutorial, basic user guide, advanced user guide)</li>  -->
+                                        </ul>
+                                <br clear="all"/>
+                                <h5 style="margin-bottom:8px;"><a href="http://www.paradigm4.com/">SciDB</a></h5>
+                                <p>
+                                SciDB combines the features of a scalable computational engine with a reliable, massively parallel, data store. SciDB's high level goals and
+                                detailed feature list were the results of a survey of scientific users of data management technology--astronomers, high energy physicists,
+                                earth scientists and biologists--many of whom have spent their careers working in an environment characterized by an (over)abundance of machine
+                                (sensor) generated data. Often, resolving scientific questions involved integrating data from multiple sources, and by encouraging collaboration
+                                and data sharing.  We now see the commercial world, from Life Sciences to Quant Finance, to IoT facing the same challenges and adopting and
+                                deploying SciDB. In this tutorial, we will go over the design and implementation of SciDB and review a number of the applications &ndash; both
+                                commercial, and scientific &ndash; to which it is being applied.
+                                </p>
+                                <h6 style="margin-top:-15px;">Presenters:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item">Paul G. Brown (Paradigm4)</li>
+                                        </ul>
+                                <br clear="all"/>
+                                <h6 style="margin-top:-15px;">Resources:</h6>
+                                        <ul style="margin-top:-28px;">
+                                                <li class="my-list-item"><a href="http://www.paradigm4.com/" target="_blank">Project website</a></li>
+                                        </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization" class="container content-section text-left">
+        <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                        <h3>Workshop Organization</h3>
+                                <p>
+                                <b>Workshop Chair:</b>
+                                <ul style="margin-top:-30px;">
+                                        <li style="list-style-type:square">Tilmann Rabl, TU Berlin, rabl@tu-berlin.de</li>
+                                </ul>
+                                </p>
+                                <p>
+                                <b>Panel Chair:</b>
+                                <ul style="margin-top:-30px;">
+                                        <li style="list-style-type:square">Chaitanya Baru, San Diego Supercomputing Center</li>
+                                </ul>
+                                </p>
+                                <p>
+                                <b>Advisory Committee:</b>
+                                <ul style="margin-top:-30px;">
+                                        <li style="list-style-type:square">Michael Carey, UC Irvine</li>
+                                        <li style="list-style-type:square">Volker Markl, TU Berlin</li>
+                                        <li style="list-style-type:square">Norman Patton, Unversity of Manchester </li>
+                                </ul>
+                                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Map Section -->
+    <!--<div id="map"></div>-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <!--<p>Copyright © 2015</p> -->
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>

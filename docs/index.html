@@ -1,5 +1,5 @@
 <html lang="en">
- 
+
 <head>
 
     <meta charset="utf-8">
@@ -55,9 +55,9 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
 
-					          <!-- Program link @ menu <li>
+					          <li>
                         <a class="page-scroll" href="#program">Program</a>
-                    </li> -->
+                    </li>
 
                <!--<li>
                         <a class="page-scroll" href="#panel">Panel</a>
@@ -131,20 +131,20 @@
 					<a href="https://vldb2020.org/"><span class="text-uppercase lead"> Very Large Data Bases</span></a><br>
 					<small><strong>Held online due to the COVID-19 pandemic, August 31 - September 4, 2020</strong></small>
 					</p>
-		    
+
 		    			<!-- COVID Panel -->
 		    			<div class="panel-group">
 					<div class="panel panel-success">
 					<div class="panel-heading"><h5 class="panel-title">UPDATE: Important Message on Covid-19 (SARS-CoV-2) and BOSS 2020</h5></div>
 					<div class="panel-body">
-					<p>						
-					Due to the current situation with COVID-19, the VLDB Conference 2020 will not be taking place in Tokyo. 
+					<p>
+					Due to the current situation with COVID-19, the VLDB Conference 2020 will not be taking place in Tokyo.
 					Following VLDB, BOSS 2020 will take place virtually on September 4.
 					</p>
 					</div></div></div>
 					<!-- COVID Panel -->
-						
-			    
+
+
 					<!-- Date Panel -->
 					<div class="panel panel-success">
 					<div class="panel-heading"><h5 class="panel-title">Workshop Date</h5></div>
@@ -179,96 +179,186 @@
 
 <!-- Program Section -->
 
-<!-- TODO: uncomment for program
+
    <section id="program" class="container content-section text-left">
         <div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
-                <h3>Workshop Format</h3>
+                <h3>Workshop Program</h3>
 		<p>
 
 		<a href="#aax" style="display:inline"></a>
-					<div class="col-lg-6">
-						<div class="list-group list-group-justified"></div>
-				        </div><br/>
+		<div class="col-lg-6">
+			<div class="list-group list-group-justified"></div>
+	        </div><br/>
 
 
-			<h4>Program Outline</h4>
+			<!-- <h4>Program Outline</h4> -->
 
-<table class="table table-condensed content-centered">
-				<tr style="font-weight:bold;border: 1 pa solid black;">
-                                        <td>Schedule</td>
-                                        <td> </td>
-										<td colspan="3"></td>
-                                </tr>
-                                <tr>
-                                        <td>09:00 - 09:20</td>
-                                        <td>Intro, Flash Talks (3mins for each parallel tutorial)</td>
-										<td> </td>
-										<td> </td>
-										<td> </td>
-                                </tr>
-								 <tr>
-                                        <td>09:20 - 10:30</td>
-                                        <td>Tensor Flow Extended (TFX): A platform for end-to-end ML in production</td>
-										<td></td>
-										<td></td>
-										<td></td>
-                                </tr>
-                                <tr class="success">
-                                        <td>10:30 - 11.00</td>
-                                        <td>Coffee Break</td>
-										<td></td>
-										<td></td>
-										<td></td>
-                                </tr>
-                                <tr>
-                                        <td rowspan="2" style="vertical-align:middle;">11:00 - 13:00</td>
-					<td rowspan="2" style="vertical-align:middle;">Parallel Tutorials I (1.5-2h based on tutorial), all but TFX</td>
-										<td></td>
-										<td></td>
-										<td></td>
-                                </tr>
-								<tr>
-										<td></td>
-										<td></td>
-										<td></td>
-								</tr>
-								<tr class="success">
-                                        <td>13:00 - 14.00</td>
-                                        <td>Lunch Break</td>
-										<td> </td>
-										<td> </td>
-										<td> </td>
-                                </tr>
-								<tr>
-                                        <td>14:00 - 15:30</td>
-                                        <td>Parallel Tutorials II (1.5-2h based on tutorial, repetitions of the morning tutorials)</td>
-										<td></td>
-										<td> </td>
-										<td> </td>
-                                </tr>
-								<tr>
-                                        <td rowspan="2" style="vertical-align:middle;">15:30 - 16:00</td>
-                                        <td rowspan="2" style="vertical-align:middle;">Coffee Break</td>
-										<td></td>
-										<td></td>
-										<td></td>
-                                </tr>
-								<tr>
-										<td></td>
-										<td></td>
-										<td></td>
-								</tr>
-								<tr class="success">
-                                        <td>16:00 - 16.30</td>
-                                        <td>Parallel Tutorials II Continued</td>
-										<td></td>
-										<td></td>
-										<td></td>
-                                </tr>
-                    </table>
-				</div>
+      <table class="table table-bordered content-centered">
+				<!-- <tr style="font-weight:bold;border: 1 pa solid black;">
+          <td colspan="5">Schedule</td>
+        </tr> -->
 
+        <tr class="text-center">
+          <td > <b>UTC time</b> </td>
+          <td> <b>CEST time</b> </td>
+          <td colspan="3"> <b>Activity description</b> </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">08:00 - 08:15</td>
+          <td class="col-md-2">10:00 - 10:15</td>
+          <td colspan="3"> Welcome and introduction by Eleni Zacharatou and Pedro Silva</td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">08:15 - 09:45</td>
+          <td class="col-md-2">10:15 - 11:45</td>
+          <td class="col-md-8">
+            <a class="pull-right" data-toggle="collapse" href="#mlflow-desc" role="button" aria-expanded="false" aria-controls="mlflow-desc"> + details </a>
+            <b>Tutorial:</b> Managing the end-to-end machine learning lifecycle with MLflow
+
+            <div class="collapse" id="mlflow-desc">
+                <div class="card card-body">
+                  <br/>
+
+                  Building and deploying a machine-learning model can be difficult to accomplish.
+                  Enabling data scientists to reproduce ML pipelines is equally challenging.
+                  Moreover, doing so can impact data science teams’ productivity,
+                  leading to a significant waste of time and resources.
+                  <br/><br/>
+                  Getting models up to speed in the first place is significant enough that it can be easy to overlook long-term management.
+                  What does this involve in practice? In essence, we have to compare the results of different versions of ML models to track
+                  what’s running where, and to redeploy and rollback updated models as needed. Each of these requires its own specific tools,
+                  and it’s these changes that make the ML lifecycle so challenging compared to traditional software development lifecycle (SDLC) management.
+                  <br/><br/>
+
+                  <b>Presenters:</b><br/>
+                   Paulo Gutierrez, Databricks<br/>
+                   Denny Lee, Databricks<br/><br/>
+
+                 <a href="tutorials/mlflow-prop.pdf">>>>Link to complete description<<<</a>
+
+                </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">10:00 - 12:00</td>
+          <td class="col-md-2">12:00 - 14:00</td>
+          <td colspan="3"> <b>Tutorial:</b> Gradoop
+            <a class="pull-right" data-toggle="collapse" href="#gradoop-desc" role="button" aria-expanded="false" aria-controls="gradoop-desc">+ details</a>
+            <div class="collapse" id="gradoop-desc">
+                <div class="card card-body">
+                  <br/>
+
+                   Gradoop is a distributed, open source framework for complex graph analytics built on top of Apache Flink. It provides a graph data model which extends the widespread property graph model by the concept of graph collections and a set of operators. Operators, e.g., for pattern matching, graph transformations and structural grouping, as well as graph algorithms can be applied on a logical graph and graph collections. The flexible combination of these operators allows a declarative definition of graph analytical workflows that can be easily executed on a shared nothing Apache Flink cluster.
+
+                   <br/><br/>
+                   In the Gradoop tutorial you will learn about the key ideas in distributed graph analytics. For that purpose, we prepared several chapters where we shed light on how to get started, how to use our analytical operators and how to execute analytical pipelines with Gradoop. Each chapter contains two parts. First, an introduction and demonstration of the current topic and second, time for practice where you can apply the given knowledge to solve example analytical questions. During hands-on practice time, we are tuned to help and answer your questions. At the end of the tutorial session we will give a deeper look into Gradoop's future development goals and our ongoing research.
+                   <br/><br/>
+
+                  <b>Presenters:</b><br/>
+                   Kevin Gomez, University of Leipzig<br/>
+                  Christopher Rost, University of Leipzig<br/><br/>
+
+                <a href="tutorials/gradoop-prop.pdf">>>>Link to complete description<<<</a>
+                </div>
+            </div>
+
+          </td>
+
+
+        </tr>
+
+        <tr class="success text-center">
+          <td colspan="5"> </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">15:00 - 15:55</td>
+          <td class="col-md-2">17:00 - 17:55</td>
+          <td colspan="3"> <b>Keynote:</b> Stateful functions on Apache Flink </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">18:00 - 19:30</td>
+          <td class="col-md-2">19:30 - 21:30</td>
+          <td colspan="3"> <b>Tutorial:</b> Delta Lake
+            <a class="pull-right" data-toggle="collapse" href="#delta-lake-desc" role="button" aria-expanded="false" aria-controls="delta-lake-desc">+ details </a>
+            <div class="collapse" id="delta-lake-desc">
+                <div class="card card-body">
+                  <br/>
+                  Delta Lake is an open-source storage layer that brings reliability to data lakes. Delta Lake offers ACID transactions, scalable metadata handling, and unifies streaming and batch data processing. It runs on top of your existing data lake and is fully compatible with Apache Spark APIs.
+                  <br/><br/>
+                  In this 1.5 hour session you will learn about:
+                  The data engineering pipeline architecture
+                  Data engineering pipeline scenarios
+                  Data engineering pipeline best practices
+                  How Delta Lake enhances data engineering pipelines
+                  The ease of adopting Delta Lake for building your data engineering pipelines
+                  <br/><br/>
+                  <b>Presenters:</b><br/>
+                  Kate Sullivan, Databricks<br/>
+                  Emma Freeman, Databricks<br/><br/>
+
+                <a href="tutorials/delta-lake-prop.pdf">>>>Link to complete description<<<</a>
+                </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="col-md-2">17:30 - 19:30</td>
+          <td class="col-md-2">19:30 - 21:30</td>
+          <td colspan="3">  <b>Tutorial:</b> JSON Analytics with Apache AsterixDB
+            <a class="pull-right"data-toggle="collapse" href="#asterixdb-desc" role="button" aria-expanded="false" aria-controls="asterixdb-desc">+ details</a>
+            <div class="collapse" id="asterixdb-desc">
+                <div class="card card-body">
+                  <br/>
+                  Apache AsterixDB is a Big Data Management System (BDMS) with a feature set chosen to
+                  target use cases such as web data warehousing and social media data analysis. Its notable
+                  features include:
+                  <ul>
+                      <li> A NoSQL-style data model based on extending JSON with object database concepts;</li>
+                      <li> A declarative query language, SQL++, that supports a broad range of queries against
+                           multiple semi-structured datasets; </li>
+                      <li> A query optimizer for parallel queries and an efficient dataflow execution engine for
+                      partitioned-parallel query execution; </li>
+                      <li> Partitioned and LSM-based native storage and indexing for large datasets;</li>
+                      <li> Support for querying of external data (e.g., data on AWS S3) as well as natively stored
+                      data; </li>
+                      <li> Rich data type support, including numeric, textual, temporal, and simple spatial data;</li>
+                      <li> Secondary indexing through B+ trees, R-trees, and inverted keyword indexes; </li>
+                      <li> Basic NoSQL-like transactional capabilities. </li>
+                  </ul>
+                  <br/><br/>
+                  This tutorial will explain how Apache AsterixDB's SQL++ language can be used to analyze large
+                  bodies of semistructured (JSON) data. The focus will be on the analytical features of SQL++,
+                  which include SQL++ CTEs and functions, aggregation and grouping in SQL++, advanced
+                  grouping (Grouping Sets, Rollup, Cube), and Window functions. The attendees will have an
+                  opportunity to use AsterixDB and SQL++ hands-on during the tutorial.
+                  <br/><br/>
+                  <b>Presenters:</b><br/>
+                  Michael Carey<br/>
+                  Ian Maxon<br/>
+                  Till Westmann<br/>
+                  Dmitry Lychagin<br/>
+                  Phanwadee (Gift) Sinthong<br/><br/>
+
+                <a href="tutorials/asterixdb-prop.pdf">>>>Link to complete description<<<</a>
+                </div>
+              </div>
+          </td>
+
+        </tr>
+      </table>
+
+		</div>
+
+
+<!--
 		    <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -360,11 +450,11 @@
     <td class="tg-031e" colspan="3"></td>
   </tr>
 </table>
-
+-->
 
             </div>
         </div>
-    </section>-->
+    </section>
 
 <!-- End Program Section --------------------------------------------------------- -->
 
@@ -442,7 +532,6 @@
         <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                         <h3>Workshop Organization</h3>
-                                <p>
                                 <b>Workshop Chairs:</b>
                                 <ul style="">
                                         <li style="list-style-type:square">Eleni Tzirita Zacharatou, TU Berlin, eleni.tziritazacharatou@tu-berlin.de</li>
@@ -457,7 +546,6 @@
                                 </ul>
                 <!--jump marker to Selection Process-->
 								<span id="oct"> </span>
-                                </p>
                        </div>
         </div>
 
@@ -486,7 +574,7 @@
 				</ul><br>
 				to <b>vldb.boss.workshop@gmail.com</b>
 				<br /><br />
-				Note that the standard tutorial duration is 1.5 to 2 hours. 
+				Note that the standard tutorial duration is 1.5 to 2 hours.
 				</div>
 				</li>
         			</ul>
@@ -503,7 +591,7 @@ perceived interests from the conference participants.
 	  </div>
 	  </div>
 </div>
-</div> 
+</div>
 
 		</div>
 

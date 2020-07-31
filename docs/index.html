@@ -162,22 +162,22 @@
               the presented system.</li>
 					</ul>
 					</p>
-					
+
 					<!-- <p> The workshop will consist of tutorials, we will publish the tutorial proposals on the website
           and encourage the presenters to publish the tutorial resources. In the previous editions, we
           published slides and project websites. We would encourage proposers to engage participants
           in a hands-on quick jump start familiarity exercise for the system. </p> -->
-				             
+
                      <!--  There will be an open call for tutorials soon.  -->
                    <!--  <p> There is an <a href="#oct">open call for tutorials.</a>   </p>-->
-                   
+
 			</div>
 		</div>
     </section>
 <!-- End About Section ---------------------------------------- -->
 
 <!-- Program Section -->
-	
+
    <section id="program" class="container content-section text-left">
         <div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
@@ -206,7 +206,7 @@
         <tr>
           <td class="col-md-2">08:00 - 08:15</td>
           <td class="col-md-2">10:00 - 10:15</td>
-          <td colspan="3"> Welcome and introduction by Eleni Tzirita Zacharatou and Pedro Silva</td>
+          <td colspan="3"> Welcome and introduction</td>
         </tr>
 
         <tr>
@@ -277,7 +277,46 @@
         <tr>
           <td class="col-md-2">15:00 - 15:55</td>
           <td class="col-md-2">17:00 - 17:55</td>
-          <td colspan="3"> <b>Keynote:</b> Stateful functions on Apache Flink </td>
+          <td colspan="3"> <b>Keynote:</b> Stateful functions on Apache Flink
+            <a class="pull-right" data-toggle="collapse" href="#keynote-desc" role="button" aria-expanded="false" aria-controls="keynote-desc">+ details </a>
+            <div class="collapse" id="keynote-desc">
+                <div class="card card-body">
+                  <br/>
+                  <b>Abstract</b>
+                  <br/>
+                  Orchestration frameworks like Kubernetes have made dealing with stateless applications very easy.
+                  But for stateful applications, we are still clinging to the ancient wisdom that state shall be
+                  someone else's problem: just put it in a database! Because of that, we are still struggling with
+                  the same issues of data consistency and complex failure semantics as decades ago.
+                  Developing stateful applications in a scalable and resilient way is still hard,
+                  especially when they span multiple (mirco)services.
+
+                  Stream Processors, like Apache Flink, have solved similar problems in the area
+                  of event-processing. By rethinking the relationship between state, messaging,
+                  and computation, stream processing applications are out-of-the-box scalable and consistent.
+
+                  Is it possible to bring some of these ideas to the space of general-purpose applications and (micro) services?
+
+                  The Apache Flink project has recently added a new subproject called "Stateful Functions"
+                  (https://statefun.io/) that tries to achieve exactly that. In Stateful Functions,
+                  the Flink effectively becomes an event-driven database that works together with
+                  containerized event-driven functions to form a new building block for scalable
+                  and consistent applications. In this talk, we present the Stateful Functions project.
+                  We show how its small change in responsibilities between database and applications goes
+                  surprisingly far in solving the problem of consistency and failure semantics for applications,
+                  and additionally makes it blend very well with current serverless technologies, like AWS Lambda, knative, etc.
+                  <br/><br/>
+                  <b>Speaker: Stephan Ewen, Ververica</b><br/>
+                  Stephan Ewen is one of the original creators and PMC Chair of Apache Flink, and
+                  CTO and co-founder of Ververica (founded as "data Artisans", acquired by Alibaba Group).
+                  He leads the efforts on systems and architectures for data analytics and distributed applications,
+                  powered by stream processing technology. Before working on Apache Flink, Stephan worked on
+                  in-memory databases, query optimization, and distributed systems. He holds a Ph.D.
+                  from the Berlin University of Technology.
+
+                </div>
+            </div>
+          </td>
         </tr>
 
         <tr>
